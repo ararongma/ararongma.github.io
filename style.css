@@ -7,32 +7,32 @@ body
     padding-top: 50px;
 }
 
-#result /*1st msg box formatting*/
+#result 
 {
     font-size: 40px;
     margin-top: 50px;
 }
 
-#computerChoice /*2nd msg box formatting*/
+#computerChoice 
 {
     font-size: 18px;
     margin-top: 10px;
 }
 
-#score /*3rd msg box formatting*/
+#score
 {
     font-size: 30px;
     margin-top: 60px;
 }
 
-.image-container /*like the name said, just formatting the containers only*/
+.image-container 
 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.image-container img /*img formatting (and cursor hover)*/
+.image-container img 
 {
     width: 200px;
     margin: 0 20px;
