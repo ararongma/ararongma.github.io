@@ -1,0 +1,21 @@
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="playGame()"> 
+<div>
+    <div class="image-container"> 
+        <img src="rock.jpg" alt="Rock" onclick="playGame('Rock')">
+        <img src="paper.jpg" alt="Paper" onclick="playGame('Paper')">
+        <img src="scissors.jpg" alt="Scissors" onclick="playGame('Scissors')">
+    </div>
+    <div id="result"></div>
+    <div id="computerChoice"></div>
+    <div id="score"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
